@@ -6,6 +6,7 @@ import Footer from "./layout/Footer/Footer"
 import Countries from "./pages/countries/Countries"
 import Tours from "./pages/tours/Tours"
 import Contact from "./pages/contact/Contact"
+import TourInfo from "./components/TourInfo"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
             <Route path="/countries" element={<Countries />} />
             <Route path="/tours" element={<Tours />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/tour/:id" element={<TourInfo />} />
           </Routes>
         </div>
         <Footer />

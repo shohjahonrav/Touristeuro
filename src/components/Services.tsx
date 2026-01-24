@@ -8,9 +8,9 @@ const carts = [
 const Services = () => {
   return (
     <div className="container">
-      <div className="py-25.5 px-36">
-        <span className="text-[#2196F3] text-[48px] font-medium">Services</span>
-        <div className="mt-10 grid grid-cols-4 gap-5">
+      <div className="py-15 md:py-25.5 md:px-36">
+        <span className="text-[#2196F3] text-[28px]  md:text-[48px] font-medium">Services</span>
+        <div className="mt-7.5 md:mt-10 grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-5">
           {
             carts.map((cart, index) => (
               <div className="bg-white h-88.75 rounded-3xl flex flex-col justify-between p-6.25">
